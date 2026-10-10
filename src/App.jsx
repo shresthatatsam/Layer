@@ -8,9 +8,10 @@ import { products, matchingSet, formatNPR } from './data/products'
 import { useCart } from './hooks/useCart'
 import heroVideo from './assets/hero.mp4'
 import size1 from './assets/img1.jpeg'
-import size2 from './assets/img2.jpeg'
+import set from './assets/Set.png'
+import hoodie from './assets/hoodie.jpeg'
+import trouser from './assets/trouser.jpeg'
 import basantapur from './assets/cafehop.png'
-const lifestyleImage = 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1800&q=85'
 
 export default function App() {
   const cart = useCart()
@@ -39,11 +40,9 @@ export default function App() {
 
       <main>
         <section className="hero" id="home">
-          {/* <img className="hero-image" src={lifestyleImage} alt="Streetwear editorial with a relaxed urban look" fetchPriority="high" /> */}
-          <video
+         <video
             className="hero-image"
             src={heroVideo}
-            poster={lifestyleImage}
             autoPlay
             muted
             loop
@@ -123,9 +122,9 @@ export default function App() {
           <div className="instagram-heading"><div><span className="eyebrow">THE LAYER LIFE</span><h2>Out there, in LAYER.</h2></div><a className="text-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Follow on Instagram ↗</a></div>
           <div className="instagram-grid">
             <img src={size1} alt="Streetwear inspiration" loading="lazy" />
-            <img src={size2} alt="Hoodie detail" loading="lazy" />
-            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=500&q=80" alt="Streetwear outfit inspiration" loading="lazy" />
-            <img src="https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=500&q=80" alt="Relaxed trousers detail" loading="lazy" />
+            <img src={hoodie} alt="Hoodie detail" loading="lazy" />
+            <img src={trouser} alt="Streetwear outfit inspiration" loading="lazy" />
+            <img src={set} alt="Relaxed trousers detail" loading="lazy" />
             <a href="https://www.instagram.com/layernp/" target="_blank" rel="noreferrer" className="instagram-follow"><span>FOLLOW ALONG</span><strong>@layer.nepal ↗</strong></a>
           </div>
         </section>
