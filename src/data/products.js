@@ -27,7 +27,7 @@ export const matchingSet = {
   id: 'set',
   name: 'The Matching Set',
   subtitle: 'The full look · Better together',
-  price: 3600,
+  price: 3960,
   category: 'Set',
   image: set,
   alt: 'Matching hoodie and trousers set'
