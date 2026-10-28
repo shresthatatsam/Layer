@@ -7,10 +7,10 @@ import SizeGuide from './components/SizeGuide.jsx'
 import { products, matchingSet, formatNPR } from './data/products'
 import { useCart } from './hooks/useCart'
 import heroVideo from './assets/hero.mp4'
-import size1 from './assets/img1.jpeg'
-import set from './assets/Set.png'
-import hoodie from './assets/hoodie.jpeg'
-import trouser from './assets/trouser.jpeg'
+import size1 from './assets/sweatAndtrouser.png'
+import set from './assets/comfortmixboth.png'
+import hoodie from './assets/hoodie.png'
+import trouser from './assets/trouser.png'
 import basantapur from './assets/cafehop.png'
 
 export default function App() {
@@ -121,8 +121,8 @@ export default function App() {
         <section className="instagram-section section-pad">
           <div className="instagram-heading"><div><span className="eyebrow">THE LAYER LIFE</span><h2>Out there, in LAYER.</h2></div><a className="text-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Follow on Instagram ↗</a></div>
           <div className="instagram-grid">
-            <img src={size1} alt="Streetwear inspiration" loading="lazy" />
             <img src={hoodie} alt="Hoodie detail" loading="lazy" />
+            <img src={size1} alt="Streetwear inspiration" loading="lazy" />
             <img src={trouser} alt="Streetwear outfit inspiration" loading="lazy" />
             <img src={set} alt="Relaxed trousers detail" loading="lazy" />
             <a href="https://www.instagram.com/layernp/" target="_blank" rel="noreferrer" className="instagram-follow"><span>FOLLOW ALONG</span><strong>@layer.nepal ↗</strong></a>
