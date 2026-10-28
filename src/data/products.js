@@ -1,7 +1,7 @@
 
 import hoodie from '../assets/hoodie.png'
 import trouser from '../assets/trouser.png'
-import set from '../assets/sweatAndTrouser.png'
+import set from '../assets/set.png'
 export const products = [
   {
     id: 'hoodie',
