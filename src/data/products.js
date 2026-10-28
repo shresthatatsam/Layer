@@ -1,7 +1,7 @@
 
 import hoodie from '../assets/hoodie.png'
 import trouser from '../assets/trouser.png'
-import set from '../assets/set.png'
+import setimg from '../assets/setimg.png'
 export const products = [
   {
     id: 'hoodie',
@@ -29,7 +29,7 @@ export const matchingSet = {
   subtitle: 'The full look · Better together',
   price: 3960,
   category: 'Set',
-  image: set,
+  image: setimg,
   alt: 'Matching hoodie and trousers set'
 }
 
